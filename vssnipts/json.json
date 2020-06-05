@@ -1,0 +1,41 @@
+{
+	"vimspector configure": {
+		"prefix": "vimspector",
+		"body": [
+			"{",
+			"\t\"configurations\": {",
+			"\t\t\"cpp:launch\": {",
+			"\t\t\t\"adapter\": \"vscode-cpptools\",",
+			"\t\t\t\"configuration\": {",
+			"\t\t\t\t\"name\": \"cpp\",",
+			"\t\t\t\t\"type\": \"cppdbg\",",
+			"\t\t\t\t\"request\": \"launch\",",
+			"\t\t\t\t\"program\": \"\\${fileDirname}/\\${fileBasenameNoExtension}\",",
+			"\t\t\t\t\"args\": [",
+			"\t\t\t\t\t\"*\\${rogramArgs}\"",
+			"\t\t\t\t],",
+			"\t\t\t\t\"cwd\": \"\\${workspaceRoot}\",",
+			"\t\t\t\t\"environment\": [],",
+			"\t\t\t\t\"externalConsole\": true,",
+			"\t\t\t\t\"stopAtEntry\": true,",
+			"\t\t\t\t\"MIMode\": \"gdb\",",
+			"\t\t\t\t\"logging\": {",
+			"\t\t\t\t\t\"engineLogging\": false",
+			"\t\t\t\t}",
+			"\t\t\t}",
+			"\t\t},",
+			"\t\t\"cpp:attach\": {",
+			"\t\t\t\"adapter\": \"vscode-cpptools\",",
+			"\t\t\t\"configuration\": {",
+			"\t\t\t\t\"name\": \"cpp\",",
+			"\t\t\t\t\"type\": \"cppdbg\",",
+			"\t\t\t\t\"request\": \"attach\",",
+			"\t\t\t\t\"program\": \"\\${fileDirname}/\\${fileBasenameNoExtension}\",",
+			"\t\t\t\t\"MIMode\": \"gdb\"",
+			"\t\t\t}",
+			"\t\t}",
+			"\t}",
+			"}"
+		]
+	}
+}

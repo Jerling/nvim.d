@@ -1,0 +1,9 @@
+[submodule "doc/cheatsheets"]
+	path = doc/cheatsheets
+	url = https://github.com/skywind3000/awesome-cheatsheets
+[submodule "vssnipts"]
+	path = vssnipts
+	url = https://github.com/Jerling/vssnipts
+[submodule "apps/mywiki"]
+	path = apps/mywiki
+	url = https://github.com/Jerling/mywiki.git
